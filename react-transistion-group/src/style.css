@@ -1,0 +1,14 @@
+.example {
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.example-enter,
+.example-leave.example-leave-active {
+  height: 0;
+}
+
+.example-leave,
+.example-enter.example-enter-active {
+  height: 500px;
+}
